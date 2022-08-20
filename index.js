@@ -4,14 +4,17 @@ console.log(cats);
 function appendCat(name){
     const appNewCats = [...cats, name]
     return appNewCats
+
 }
 function prependCat(name){
     const preNewCats = [name, ...cats];
     return preNewCats
 } 
+
 function destructivelyAppendCat(name) {
     cats.push ("Ralph");
 }
+
 function destructivelyPrependCat(name) {
     cats.unshift("Bob");
 }  
